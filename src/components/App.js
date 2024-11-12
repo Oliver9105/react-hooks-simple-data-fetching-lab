@@ -15,7 +15,7 @@ function App() {
         console.error("Error fetching the dog image:", error);
         setIsLoading(false);
       });
-  }, []);
+  }, [])
 
   return (
     <div className="App">
